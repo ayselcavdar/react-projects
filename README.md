@@ -12,4 +12,6 @@ from basic to advance react projects
 2. Tours
 3. Reviews
 4. Accordion
+5. Menu
+6. Tabs
 
