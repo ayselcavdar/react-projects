@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-import { useDispatch } from "react-redux";
 
 export const todosSlice = createSlice({
   name: "todos",
