@@ -1,5 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+import { useDispatch } from "react-redux";
+
 export const todosSlice = createSlice({
   name: "todos",
   initialState: {
@@ -16,7 +18,12 @@ export const todosSlice = createSlice({
       },
     ],
   },
-  reducers: {},
+  reducers: {
+      addTodo:(state, action) => {
+          state.items.push(action.payload)
+      }
+  },
 });
 
+export const {addTodo} = todosSlice.actions
 export default todosSlice.reducer;
