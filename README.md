@@ -14,4 +14,7 @@ from basic to advance react projects
 4. Accordion
 5. Menu
 6. Tabs
+7. Slider
 
+#### Form
+10. Lorem Ipsum Generator
